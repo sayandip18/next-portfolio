@@ -122,3 +122,7 @@ border-radius: 50px;
     
   }
 `
+
+export const Span = styled.span`
+  font-size: 2rem;
+`;
