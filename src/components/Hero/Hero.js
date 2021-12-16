@@ -8,12 +8,12 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome
+        Hello World! <br/> I'm Sayandip Halder
       </SectionTitle>
       <SectionText>
-        About
+        I am a self-taught software developer who loves building web apps and contributing to open source.
       </SectionText>
-      <Button onClick={() => {window.location='https://google.com'}} >Learn more</Button>
+      <Button onClick={() => {window.location='https://www.dropbox.com/s/ybykyij2xth74go/Resume.pdf?dl=0'}} >View my Resume</Button>
     </LeftSection>
   </Section>
 );

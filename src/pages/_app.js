@@ -4,7 +4,7 @@ import Head from "next/head";
 export default function App({ Component, pageProps }) {
   return (
     <>  <Head>
-          <title>Sayandip's website</title>
+          <title>Sayandip's portfolio</title>
           <meta charset="UTF-8" />
           <meta name="keywords" content="portfolio app" />
           <meta name="author" content="Sayandip Halder" />

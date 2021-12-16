@@ -6,6 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider/>
+    <br/><br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>I have worked with</SectionText>
     <List>
@@ -17,7 +18,9 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            React.js <br/>
+            Vanilla JavaScript <br/>
+            Material UI
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,7 +32,9 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node.js <br/>
+            SQL <br />
+            Firebase
           </ListParagraph>
         </ListContainer>
       </ListItem>
