@@ -4,7 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
@@ -13,7 +13,9 @@ const Hero = (props) => (
       <SectionText>
         I am a self-taught software developer who loves building web apps and contributing to open source.
       </SectionText>
-      <Button onClick={() => {window.location='https://www.dropbox.com/s/ybykyij2xth74go/Resume.pdf?dl=0'}} >View my Resume</Button>
+      <a href='/SayandipHalderCV.pdf' target="_blank">
+        <Button>View my Resume</Button>
+      </a>
     </LeftSection>
   </Section>
 );
