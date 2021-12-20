@@ -4,7 +4,7 @@ export const projects = [
     description: "A full stack e-commerce application built with React, Redux, Firebase. The user can signup and signin using Google, add items to cart and buy items.",
       image: '/images/1.jpg',
       tags: ['React', 'Redux', 'Firebase', 'Stripe', 'Sass'],
-    source: '#',
+    source: 'https://github.com/sayandip18/crown-clothing',
     visit: 'https://github.com/sayandip18/crown-clothing',
     id: 0,
   },
